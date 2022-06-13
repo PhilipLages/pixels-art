@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pixels Art</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <section id="palette-title">
+          <h1 id="title">Paleta de Cores</h1>
+        </section>
+        <section id="color-palette"></section>
+        <section id="buttons-container">
+          <button id="clear-board">Limpar</button>
+          <section id="form-container">
+            <label for="board-size">Crie seu quadro:</label>          
+            <input type="number" id="board-size" min="1" placeholder = "Entre 5 e 50">          
+            <button id="generate-board">VQV</button>
+          </section>
+        </section>         
+        <section id="pixel-board"></section>  
+      </div>      
+    </main>
+    <script src="./script.js"></script>   
+  </body>
+</html>
